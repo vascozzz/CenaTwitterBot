@@ -1,6 +1,9 @@
 # Tokens
 tokens.js
 
+# Temp
+tmp*
+
 # Logs
 logs
 *.log

@@ -1,28 +1,30 @@
 {
-    "name": "john-cena-twitter-bot",
-    "version": "0.1.0",
-    "description": "AND HIS NAME IS JOHN CENA",
-    "main": "champ.js",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/vascozzz/CenaTwitterBot.git"
-    },
-    "keywords": [
-        "the",
-        "champ",
-        "is",
-        "here"
-    ],
-    "author": "Vasco Gomes <ovascogomes@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/vascozzz/CenaTwitterBot/issues"
-    },
-    "homepage": "https://github.com/vascozzz/CenaTwitterBot#readme",
-    "dependencies": {
-        "twit": "^2.2.5"
-    },
-    "scripts": {
-        "start": "node champ.js"
-    }
+  "name": "john-cena-twitter-bot",
+  "version": "0.1.0",
+  "description": "AND HIS NAME IS JOHN CENA",
+  "main": "champ.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vascozzz/CenaTwitterBot.git"
+  },
+  "keywords": [
+    "the",
+    "champ",
+    "is",
+    "here"
+  ],
+  "author": "Vasco Gomes <ovascogomes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vascozzz/CenaTwitterBot/issues"
+  },
+  "homepage": "https://github.com/vascozzz/CenaTwitterBot#readme",
+  "dependencies": {
+    "google-images": "^2.1.0",
+    "request": "^2.81.0",
+    "twit": "^2.2.5"
+  },
+  "scripts": {
+    "start": "node champ.js"
+  }
 }
