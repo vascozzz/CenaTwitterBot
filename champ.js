@@ -18,6 +18,15 @@ var images = new googleImages(
 
 tweet();
 
+setInterval(function() {
+	try {
+		tweet();
+	}
+	catch (err) {
+		console.error(err);
+	}
+}, config.tweet_interval * 1000);
+
 /**
  * Chaining method responsible for the whole tweeting process.
  */
